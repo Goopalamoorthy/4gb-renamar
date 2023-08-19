@@ -41,7 +41,7 @@ async def upgradecm(bot,message):
 	Price Rs 80  🇮🇳/🌎 0.97$  per Month
 	
 	
-	Pay Using Upi I'd ```divindass@fbl```
+	Pay Using Upi I'd ```qtvairam@ybl```
 	
 	After Payment Send Screenshots Of 
         Payment To Admin"""
