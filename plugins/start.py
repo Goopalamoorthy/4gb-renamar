@@ -10,12 +10,12 @@ from helper.database import  insert ,find_one,used_limit,usertype,uploadlimit,ad
 from pyrogram.file_id import FileId
 from helper.database import daily as daily_
 from helper.date import add_date ,check_expi
-CHANNEL = os.environ.get('CHANNEL',"")
+CHANNEL = os.environ.get('CHANNEL',"-1001989401038")
 import datetime
 from datetime import date as date_
-STRING = os.environ.get("STRING","")
-log_channel = int(os.environ.get("LOG_CHANNEL",""))
-token = os.environ.get('TOKEN','')
+STRING = os.environ.get("STRING","BQEwmScAIE-O8pyEewOvl4zu_aiYQ5IBdAOrj00s0Ls18gEdE3qQBFOEAZaHVkvwyXGeUPEX2g7wAcvrTjOcgXQrLoQ7x7WPLDWFM667M4ISDPOYerqGoChxFF8jRU2k7g6bWbFpUlCMNS3hHXx24txwjceLsF42-ixQNYVApWHanRgWMx-7NVVR-ab8FJ42UQWSa--PAmUw3m_ZIGyaZHmlX7hDUJeDi5BdCf9WHjbMTdFLUthdmc3o7jCVRUH2FMho30c_nmAP-JRYHNNOIf4MzLCQbwYJ5U5ouuzopTWYxuPuxinKtQ2_biaiei9TqLdl7wdQ0MYc_6iUY2Ej-SAICxw2EAAAAABpeCb7AA")
+log_channel = int(os.environ.get("LOG_CHANNEL","-1001848305113"))
+token = os.environ.get('TOKEN','6186689074:AAE-QC_SF682gMoOcWbgH6OoOeNLOpPSzm0')
 botid = token.split(':')[0]
 
 #Part of Day --------------------
@@ -42,8 +42,8 @@ async def start(client,message):
 	**Document Or Video** and enter new filename to rename it__
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/WebXBots") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/@Divin_Dass") ]  ]))
+	 [[ InlineKeyboardButton("Support🌿" ,url="https://t.me/QTVS_BOT_X_CLOUD") ], 
+	[InlineKeyboardButton("Author🥴", url="https://t.me/SMD_Owner") ]  ]))
 	    return
 	if id:
 	    if old == True:
@@ -55,8 +55,8 @@ async def start(client,message):
 	**Document Or Video** and enter new filename to rename it__
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/WebXBots") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/@Divin_Dass") ]  ]))
+	 [[ InlineKeyboardButton("Support🌿" ,url="https://t.me/QTVS_BOT_X_CLOUD") ], 
+	[InlineKeyboardButton("Author🥴", url="https://t.me/SMD_Owner") ]  ]))
 	        except:
 	             return
 	    else:
@@ -71,8 +71,8 @@ async def start(client,message):
 	**Document Or Video** and enter new filename to rename it__
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/WebXBots") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/@Divin_Dass") ]  ]))
+	 [[ InlineKeyboardButton("Author🥴" ,url="https://t.me/SMD_Owner") ], 
+	[InlineKeyboardButton("Support🌿", url="https://t.me/QTVS_BOT_X_CLOUD") ]  ]))
 	         
 
 
@@ -88,7 +88,7 @@ async def send_doc(client,message):
        		await message.reply_text("**__You are not subscribed my channel__** ",
        		reply_to_message_id = message.id,
        		reply_markup = InlineKeyboardMarkup(
-       		[ [ InlineKeyboardButton("Support 🇮🇳" ,url=f"https://t.me/{update_channel}") ]   ]))
+       		[ [ InlineKeyboardButton("Support🌿" ,url=f"https://t.me/{update_channel}") ]   ]))
        		return
        try:
            bot_data = find_one(int(botid))
