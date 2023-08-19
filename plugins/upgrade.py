@@ -15,14 +15,14 @@ async def upgrade(bot,update):
 	Daily Upload limit 50GB
 	Price Rs 80  🇮🇳/🌎 0.97$  per Month
 	
-	Pay Using Upi I'd ```divindass@fbl```
+	Pay Using Upi I'd ```qtvairam@ybl```
 	
 	After Payment Send Screenshots Of 
         Payment To Admin"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/webx_admin_bot")], 
-        			[InlineKeyboardButton("PayPal 🌎",url = "https://t.me/webx_admin_bot"),
-        			InlineKeyboardButton("UPI ",url = "https://t.me/webx_admin_bot")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/SMD_Owner")], 
+        			[InlineKeyboardButton("PayPal 🌎",url = "https://t.me/SMD_Owner"),
+        			InlineKeyboardButton("UPI ",url = "https://t.me/SMD_Owner")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -46,7 +46,7 @@ async def upgradecm(bot,message):
 	After Payment Send Screenshots Of 
         Payment To Admin"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/webx_admin_bot")], 
-        			[InlineKeyboardButton("PayPal 🌎",url = "https://t.me/webx_admin_bot"),
-        			InlineKeyboardButton("Paytm",url = "https://t.me/webx_admin_bot")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/SMD_Owner")], 
+        			[InlineKeyboardButton("PayPal 🌎",url = "https://t.me/SMD_Owner"),
+        			InlineKeyboardButton("Paytm",url = "https://t.me/SMD_Owner")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
